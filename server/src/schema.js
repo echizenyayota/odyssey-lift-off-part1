@@ -10,7 +10,6 @@ const typeDefs = gql`
     length: Int
     modulesCount: Int
   }
-
 `;
 
 module.exports = typeDefs;
