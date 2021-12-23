@@ -20,7 +20,7 @@ const mocks = {
   })
 };
 
-const server = new ApolloServer({ typeDefs, mocks:true });
+const server = new ApolloServer({ typeDefs, mocks });
 
 server.listen().then(() => {
   console.log(`
